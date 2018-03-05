@@ -1,0 +1,4 @@
+#galleryContainer ::ng-deep .plain-container img.image {
+    margin-right: 4%;
+    margin-bottom: 3%;
+}

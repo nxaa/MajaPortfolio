@@ -1,0 +1,23 @@
+﻿.social {
+    padding-top: 30px;
+}
+.social img {
+    height: 60px;
+    width: 60px;
+}
+.social img.padding-mail {
+    padding: 11px;
+}
+.social img.padding-phone {
+    padding: 9px;
+}
+.social .media {
+    line-height: 30px;
+    font-size: 20px;
+}
+.social .media a {
+    color: black;
+}
+.social .media a:hover, .social .media a:focus {
+    text-decoration: none;
+}

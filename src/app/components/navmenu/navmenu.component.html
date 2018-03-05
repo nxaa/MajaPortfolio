@@ -1,0 +1,21 @@
+<div class='main-nav'>
+    <div class='navbar navbar-default navbar-fixed-top'>
+        <div class='navbar-header'>
+            <a class='navbar-brand' [routerLink]="['/home']" id="homeLink" (click)="homeLikClick()"><img src="assets/images/podpis.png" /></a>
+        </div>
+        <div class='clearfix'></div>
+        <div class=' header-menu'>
+            <a [routerLink]="['/about']" id="aboutLink" class="navbar-link" (click)="aboutLikClick()">
+                O mnie
+            </a>
+            <span class="bull-space">&#x25B4;</span>
+            <a [routerLink]="['/gallery']" id="galleryLink" class="navbar-link" (click)="galleryLikClick()">
+                Portfolio
+            </a>
+            <span class="bull-space">&#x25B4;</span>
+            <a [routerLink]="['/contact']" id="contactLink" class="navbar-link" (click)="contactLikClick()">
+                Kontakt
+            </a>
+        </div>
+    </div>
+</div>
